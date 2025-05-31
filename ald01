@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardápio - Frango Assado da Praça</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid #f39c12;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #f39c12;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      color: #fff;
+      opacity: 0.7;
+      margin-bottom: 15px;
+    }
+
+    .banner-img {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto 20px auto;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h3 {
+      font-size: 1.8rem;
+      color: #f39c12;
+      border-left: 5px solid #f39c12;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #333;
+      padding: 10px 0;
+    }
+
+    .menu-item p {
+      margin: 0;
+    }
+
+    .contact, .drinks {
+      text-align: center;
+    }
+
+    .contact p {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 40px;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu-item p:last-child {
+        align-self: flex-end;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cardápio</h1>
+    <h2>Frango Assado da Praça</h2>
+  </header>
+
+  <div class="section">
+    <h3>Frango / Carnes</h3>
+    <div class="menu-item"><p>Frango Clássico</p><p>R$47 UN</p></div>
+    <div class="menu-item"><p>Costela Suína</p><p>R$60 KG</p></div>
+    <div class="menu-item"><p>Picanha</p><p>R$120 KG</p></div>
+    <div class="menu-item"><p>Alcatra</p><p>R$90 KG</p></div>
+    <div class="menu-item"><p>Fraldinha</p><p>R$70 KG</p></div>
+    <div class="menu-item"><p>Maminha</p><p>R$90 KG</p></div>
+    <div class="menu-item"><p>Cupim</p><p>R$60 KG</p></div>
+    <div class="menu-item"><p>Toscana</p><p>R$3 UN</p></div>
+  </div>
+
+  <div class="section">
+    <h3>Feijoada</h3>
+    <div class="menu-item"><p>Feijoada Self Service</p><p>R$35</p></div>
+    <div class="menu-item"><p>Feijoada Clássica (2 pessoas)</p><p>R$40</p></div>
+    <div class="menu-item"><p>Feijoada Clássica (1 pessoa)</p><p>R$20</p></div>
+    <div class="menu-item"><p>Porção de Arroz</p><p>R$10</p></div>
+    <div class="menu-item"><p>Farofa 500ml</p><p>R$15</p></div>
+    <div class="menu-item"><p>Molhos de Pimenta</p><p>R$12</p></div>
+  </div>
+
+  <div class="section">
+    <h3>Bebidas</h3>
+    <div class="menu-item"><p>Coca-Cola Lata</p><p>R$5</p></div>
+    <div class="menu-item"><p>Guaraná Lata</p><p>R$5</p></div>
+    <div class="menu-item"><p>Fanta Laranja</p><p>R$5</p></div>
+    <div class="menu-item"><p>Fanta Uva</p><p>R$5</p></div>
+    <div class="menu-item"><p>Pepsi</p><p>R$5</p></div>
+    <div class="menu-item"><p>H2O Limoneto</p><p>R$5</p></div>
+    <div class="menu-item"><p>Suco de Bacuri</p><p>R$10</p></div>
+  </div>
+
+  <div class="section contact">
+    <h3>Contato</h3>
+    <p>(98) 99219-1211</p>
+    <p>(94) 96641-097</p>
+  </div>
+
+  <footer>
+    © 2025 Frango Assado da Praça. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
